@@ -16,13 +16,13 @@ body {
     height: 100%;
     background: url('background photo.jpg') no-repeat center center/cover;
     z-index: -1;
-    opacity: 0.3;
+    opacity: 0.4;
 }
 
 /* Sidebar */
 .sidebar {
-    width: 250px;
-    background: #333;
+    width: 280px;
+    background: #222;
     color: white;
     height: 100vh;
     position: fixed;
@@ -32,13 +32,14 @@ body {
 
 /* Professor Photo */
 .prof-photo {
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     margin-bottom: 15px;
-    border: 3px solid white;
+    border: 4px solid white;
 }
 
+/* Sidebar Navigation */
 .sidebar ul {
     list-style: none;
     padding: 0;
@@ -62,8 +63,9 @@ body {
 
 /* Main Content */
 .content {
-    margin-left: 270px;
+    margin-left: 300px;
     padding: 20px;
+    max-width: 900px;
 }
 
 section {
@@ -76,4 +78,5 @@ section {
 
 h1, h2 {
     color: #333;
+    text-align: center;
 }
